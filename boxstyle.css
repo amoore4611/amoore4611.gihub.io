@@ -1,0 +1,48 @@
+/* CSS USED TO STYLE BOXES IN THE MEDIA QUERY DEMO */
+body{
+  background:whitesmoke;
+}
+
+/*specify dimensions for all boxdes in the page*/
+.box{
+  width: 200px;
+  height: 200px;
+}
+.greenbox{
+  background:rgb(144, 215, 144);
+}
+
+.redbox{
+  background:rgb(141, 50, 50);
+}
+.bluebox{
+  background:rgb(110, 110, 212);
+}
+.violetbox{
+  background:rgb(149, 77, 149);
+}
+.yellowbox{
+  background:rgb(211, 211, 90);
+}
+
+/* use@media handle to implement a media query */
+@media(max-width: 600px)
+{
+    /*to modify greenbox*/
+    .greenbox{
+      background:rgb(215, 170, 85);
+    }
+    .redbox{
+      border-radius: 50%; /*rounds the edges!!!*/
+      border: solid 2px black;
+    }
+    /* make the bluebox do something fun!*/
+    .bluebox{
+      transform: rotate(360deg);
+      transition: transform 0.2s ease-in;
+    }
+    /*make the violet box disapper*/
+    .violetbox{
+        display: none;
+    }
+}
