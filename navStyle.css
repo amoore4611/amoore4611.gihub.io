@@ -1,0 +1,23 @@
+@media (min-width: 1200px){
+  /*when teh window is 1200px or wider, the primary navigation will show*/
+  .primaryNav{
+    visibility: show;
+  }
+
+    /*when the window is 1200px if wider, the secondary navigation will disppear*/
+    .secondayNav{
+      visibility: hidden;
+    }
+}
+
+@media (max-width: 1200px){
+  /*when teh window is 1200px or smaller, the primary navigation will show*/
+  .primaryNav{
+    visibility: hidden;
+  }
+
+    /*when the window is 1200px if smaller, the secondary navigation will disppear*/
+    .secondayNav{
+      visibility: show;
+    }
+}
