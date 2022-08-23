@@ -12,20 +12,40 @@
 
   <head>
     <body>
-      <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="heading.html">Heading Demo</a></li>
-            <li><a href="textdemo.html">Text Demo</a></li>
-            <li><a href="unorderedlist.html">Unordered List Demo</a></li>
-            <li><a href="Ordered List.html">Ordered List Demo</a></li>
-            <li><a href="tabledemo1.html">Table Demo 1</a></li>
-            <li><a href="tabledemo2.html">Table Demo 2</a></li>
-            <li><a href="cssdemo.html">CSS Demo</a></li>
-            <li><a href="travel.html">Dream Vacation Page</a></li>
-            <li><a href="travel.html">Bootstrap Demo</a></li>
+      
+          <ul class = "nav-pills nav-fill">
+            <li class = "nav-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class = "nav-item">
+              <a href="heading.html">Heading Demo</a>
+            </li>
+            <li class = "nav-item">
+              <a href="textdemo.html">Text Demo</a>
+            </li>
+            <li class = "nav-item">
+              <a href="unorderedlist.html">Unordered List Demo</a>
+            </li>
+            <li class = "nav-item">
+              <a href="Ordered List.html">Ordered List Demo</a>
+            </li>
+            <li class = "nav-item">
+              <a href="tabledemo1.html">Table Demo 1</a>
+            </li>
+            <li class = "nav-item">
+              <a href="tabledemo2.html">Table Demo 2</a>
+            </li>
+            <li class = "nav-item">
+              <a href="cssdemo.html">CSS Demo</a>
+            </li>
+            <li class = "nav-item">
+              <a href="travel.html">Dream Vacation Page</a>
+            </li>
+            <li class = "nav-item">
+              <a class="nav-link active" aria-current="page" href="bootstrap Demo.html">Bootstrap Demo</a>
+            </li>
           </ul>
-      </nav>
+      
       
       <!-- Bootstrap elements allow for your code to be formateed into a grid (rows and columns)-->
       <!-- first, make a container use a div and then use the class="container"-->
@@ -50,17 +70,39 @@
               </div>
           </div> <!--end of the first row-->
 
-          <div class = "row">
+        <div class = "row">
             <!--for each row, specifiy colum up to 12 allowed-->
             <div class="col-md-6">
                 <!--this is a column of size 6 (takes up 1/2 of the row)-->
-                <p>This information is in the first 1/2 of the second row in my bootstrap grid!</p>
+                <h2>This information is in the first 1/2 of the second row </h2>
             </div>
             
             <div class="col-md-6">
               <!--this is a column of size 6 (takes up 1/2 of the row)-->
-              <p>This information is in the second 1/2 of the second row in my bootstrap grid!</p>
+              <h2>This information is in the second 1/2 of the second row </h2>
+        </div>
+
+            <div class = "row">
+              <!--for each row, specifiy colum up to 12 allowed-->
+              <div class="col-md-8">
+                  <!--this is a column of size 8 (takes up 2/3 of the row)-->
+                  <h3>This info takes up 2/3 of the third row </h3>
             </div>
+
+           <div class="col-md-3">
+              <!--this is a column of size 3 (takes up 1/4 of the row)-->
+              <h3>This info takes up 1/4 of the third row </h3>
+           </div>
+        <div class="col-md-1">
+          <!--this is a column of size 1 (takes up 1/12 of the row)-->
+          <h3>This info takes up 1/12 of the third row </h3>
+        </div>
+      
+        <div class="col-md-12">
+          <h1>I TAKE UP THE ENTIRE ROW.</h1>
+          <h1>ALL 12 COLUMNS ARE MINE! ALL MINE! MWHAHAHAHHA </h1>
+        </div>
+        
       </div> <!--end of the bootstrap container-->
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
