@@ -5,7 +5,7 @@
   }
 
     /*when the window is 1200px if wider, the secondary navigation will disppear*/
-    .secondayNav{
+    .secondaryNav{
       visibility: hidden;
     }
 }
@@ -17,7 +17,7 @@
   }
 
     /*when the window is 1200px if smaller, the secondary navigation will disppear*/
-    .secondayNav{
+    .secondaryNav{
       visibility: show;
     }
 }

@@ -10,23 +10,6 @@
     <link rel = "stylesheet" href = "navStyle.css">
   </head>
     <body>
-      <center>
-          <h1>Table Demo</h1>
-          <table border="1">
-              <tr>
-                  <th>Column 1</th>
-                  <th>Column 2</th>
-              </tr>
-              <tr>
-                  <td>Data 1a</td>
-                  <td>Data 1b</td>
-              </tr>
-              <tr>
-                  <td>Data 2a</td>
-                  <td>Data 2b</td>
-              </tr>
-          </table>
-      </center>
       <ul class = "nav nav-pills nav-fill primaryNav">
         <li class = "nav-item">
           <a href="index.html">Home</a>
@@ -62,6 +45,43 @@
           <a href="mediaQueryDemo.html">Media Query Demo</a>
         </li>
       </ul>
+      <!--seconday nav (small screen)-->
+      <div class="dropdown show secondayNav">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="heading.html">Heading Demo</a>
+          <a class="dropdown-item" href="textdemo.html">Text Demo</a>
+          <a class="dropdown-item" href="unorderedlist.html">Unordered List Demo</a>
+          <a class="dropdown-item" href="Ordered List.html">Ordered List Demo</a>
+          <a class="dropdown-item active" href="tabledemo1.html">Table Demo 1</a>
+          <a class="dropdown-item" href="tabledemo2.html">Table Demo 2</a>
+          <a class="dropdown-item" href="cssdemo.html">CSS Demo</a>
+          <a class="dropdown-item" href="travel.html">Dream Vacation Page</a>
+          <a class="dropdown-item" href="bootstrapdemo.html">Bootstrap Demo</a>
+          <a class="dropdown-item" href="mediaQueryDemo.html">Media Query Demo</a>
+        </div>
+      <center>
+          <h1>Table Demo</h1>
+          <table border="1">
+              <tr>
+                  <th>Column 1</th>
+                  <th>Column 2</th>
+              </tr>
+              <tr>
+                  <td>Data 1a</td>
+                  <td>Data 1b</td>
+              </tr>
+              <tr>
+                  <td>Data 2a</td>
+                  <td>Data 2b</td>
+              </tr>
+          </table>
+      </center>
+      
+      </div>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>        
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
